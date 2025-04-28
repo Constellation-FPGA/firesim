@@ -389,6 +389,21 @@ xilinx_vcu118_firesim_rocket_singlecore_4GB_no_nic:
     metasim_customruntimeconfig: null
     bit_builder_recipe: bit-builder-recipes/xilinx_vcu118.yaml
 
+# FPEs & PPEs on BOOM
+xilinx_vcu118_firesim_small_boom_4GB_fp_xcpt_no_nic:
+    PLATFORM: xilinx_vcu118
+    TARGET_PROJECT: firesim
+    DESIGN: FireSim
+    TARGET_CONFIG: FireSimSmallBoom4GiBDRAMConfig
+    PLATFORM_CONFIG: BaseXilinxVCU118Config
+    deploy_quintuplet: null
+    platform_config_args:
+        fpga_frequency: 90
+        build_strategy: TIMING
+    post_build_hook: null
+    metasim_customruntimeconfig: null
+    bit_builder_recipe: bit-builder-recipes/xilinx_vcu118.yaml
+
 # RHSResearch Nitefury II-only Config
 nitefury_firesim_rocket_singlecore_no_nic:
     PLATFORM: rhsresearch_nitefury_ii

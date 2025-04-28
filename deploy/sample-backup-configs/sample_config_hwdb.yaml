@@ -99,3 +99,8 @@ nitefury_firesim_rocket_singlecore_no_nic:
     bitstream_tar: https://raw.githubusercontent.com/firesim/firesim-public-bitstreams/7ee0f608e811394ad41a6bba3a825720e9de9185/rhsresearch_nitefury_ii/nitefury_firesim_rocket_singlecore_no_nic.tar.gz
     deploy_quintuplet_override: null
     custom_runtime_config: null
+
+xilinx_vcu118_firesim_small_boom_4GB_fp_xcpt_no_nic:
+    bitstream_tar: null
+    deploy_quintuplet_override: null
+    custom_runtime_config: null
