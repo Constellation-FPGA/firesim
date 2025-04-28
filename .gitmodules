@@ -3,7 +3,8 @@
 	url = https://github.com/firesim/aws-fpga-firesim
 [submodule "target-design/chipyard"]
 	path = target-design/chipyard
-	url = https://github.com/ucb-bar/chipyard
+	url = https://github.com/Constellation-FPGA/chipyard
+	branch = sc25
 [submodule "utils/FlameGraph"]
 	path = utils/fireperf/FlameGraph
 	url = https://github.com/brendangregg/FlameGraph.git
